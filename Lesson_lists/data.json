@@ -1,0 +1,19 @@
+{
+    "lessons": {
+        "running": {
+            "startTime": "12:00",
+            "maxStudents": 15,
+            "nowStudents": 12
+        },
+        "jumping":{
+            "startTime": "13:00",
+            "maxStudents": 20,
+            "nowStudents": 20
+        },
+        "skiing":{
+            "startTime": "15:00",
+            "maxStudents": 10,
+            "nowStudents": 2
+        }
+    }
+}
