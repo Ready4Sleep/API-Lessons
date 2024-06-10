@@ -1,0 +1,101 @@
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+body{
+  background-image: url("./img/jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
+}
+
+* {box-sizing:border-box}
+
+.photo-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.slider-photos{
+  max-height: 900px;
+  max-width: 300px;
+}
+
+.card {
+  background: #fff;
+  width: 500px;
+  margin-bottom: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+}
+
+.card-yellow {
+  border-top: 2px solid #f2a20e;
+}
+
+.card-padding {
+  padding: 20px;
+}
+.u-full-width, .u-max-full-width {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.u-full-width {
+  width: 100%;
+  max-width: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  unicode-bidi: isolate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  unicode-bidi: isolate;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+  border-color: inherit;
+}
+
+.like-container {
+  display: flex;
+  align-items: center;
+}
+ 
+.like-button {
+  font-size: 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 8px;
+}
+ 
+.like-count {
+  font-size: 18px;
+  color: #fff;
+}
+
